@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RuntimeFrameworkVersion>2.2.4</RuntimeFrameworkVersion>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EastWestTest.Domain.Core\EastWestTest.Domain.Core.csproj" />
+    <ProjectReference Include="..\EastWestTest.Domain.Interfaces\EastWestTest.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\EastWestTest.Infrastructure.Business\EastWestTest.Infrastructure.Business.csproj" />
+    <ProjectReference Include="..\EastWestTest.Infrastructure.Data\EastWestTest.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\EastWestTest.Services.Interfaces\EastWestTest.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

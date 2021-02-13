@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RuntimeFrameworkVersion>2.2.4</RuntimeFrameworkVersion>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EastWestTest.Domain.Core\EastWestTest.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>
